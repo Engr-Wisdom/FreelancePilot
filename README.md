@@ -1,81 +1,36 @@
-# FreelancePilot
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-**FreelancePilot – Freelancer Business Management Platform**
+## Getting Started
 
-FreelancePilot is a full-stack web-based freelancer business management platform designed to help freelancers manage their businesses efficiently from one centralized workspace.
+First, run the development server:
 
-The platform simplifies everyday freelance operations by bringing client management, project tracking, proposal generation, invoicing, payment tracking, task management, and business analytics together in one application.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Project Purpose
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Many freelancers rely on multiple applications, spreadsheets, and manual processes to manage their businesses. This can result in missed deadlines, poor organization, delayed payments, and difficulty tracking business performance.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-FreelancePilot aims to solve these challenges by providing an organized and user-friendly platform that helps freelancers manage their clients, projects, finances, and daily business activities more effectively.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Planned Features
+## Learn More
 
-- **User Authentication:** Secure account registration, login, and profile management.
-- **Client Management:** Create, organize, and manage client information.
-- **Project Management:** Create projects, set budgets, assign deadlines, and monitor progress.
-- **Proposal Generation:** Create professional project proposals with descriptions, deliverables, pricing, and terms.
-- **Invoice Generation:** Generate, download, and share professional invoices.
-- **Payment Tracking:** Monitor received payments, outstanding balances, overdue invoices, and revenue.
-- **Task and Deadline Management:** Organize tasks and track upcoming deadlines.
-- **Dashboard and Analytics:** View active projects, revenue, expenses, outstanding payments, and upcoming deadlines.
-- **Notifications and Reminders:** Receive reminders for approaching deadlines and overdue payments.
-- **AI-Assisted Business Insights (Optional):** Explore AI-powered summaries and recommendations based on business activities.
+To learn more about Next.js, take a look at the following resources:
 
-## Technology Stack
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-The project is expected to use the following technologies:
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-### Frontend
-- React
-- TypeScript
-- Tailwind CSS
+## Deploy on Vercel
 
-### Backend
-- Node.js
-- Express.js
-- TypeScript
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### Database and ORM
-- PostgreSQL
-- Prisma ORM
-
-### Authentication and Security
-- JSON Web Tokens (JWT)
-- bcrypt
-
-### Additional Tools
-- PDFKit
-- Git and GitHub
-
-## Team Members
-
-- Christian Martinez
-- Kyle Bowser
-- Ririku Shirakawa
-- Wisdom Emmanuel Effiong 
-
-## Project Status
-
-**Currently in Development**
-
-FreelancePilot is being developed as part of the CSE 499 Senior Project at Brigham Young University–Idaho.
-
-The team will prioritize the essential business management features before exploring optional advanced functionality.
-
-## Project Goal
-
-Our goal is to build a centralized, reliable, and user-friendly platform that simplifies freelancer business management, improves productivity, and helps freelancers run their businesses more professionally.
-
-##  Project Quote
-
-> "Great things are done by a series of small things brought together."
->
-> — Vincent van Gogh
-
----
-
-**FreelancePilot – Manage Your Freelance Business with Confidence.**
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
